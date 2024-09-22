@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            height: 480vh;
+            width: 100vw;
+        }
+
+        .box1 {
+            width: 100vw;
+            height: 134vh;
+            background-image: url("https://wallpaperaccess.com/full/2936965.jpg");
+        }
+
+        .box1 p {
+            font-size: 80px;
+            margin-left: 23vw;
+            padding-top: 8vh;
+        }
+
+        .box1 h2 {
+            text-align: center;
+            padding-left: 4vw;
+            padding-top: 2vh;
+        }
+
+        .box1 img {
+            width: 180px;
+            text-align: justify;
+            padding-left: 10vw;
+            padding-top: 2vw;
+        }
+
+        .text h2 {
+            border-radius: 50px;
+            background-color: rgb(121, 81, 150);
+            margin: auto;
+            margin-top: 20px;
+            margin-left: 44vw;
+            width: 210px;
+            padding-left: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .text1 p {
+            font-size: 12px;
+            margin-left: 45vw;
+            padding-top: 25px;
+        }
+
+        .img img {
+            width: 100px;
+        }
+
+        /* box2 */
+
+        .box2 {
+
+            display: flex;
+            padding: 18vh;
+            padding: 15vw;
+
+        }
+
+        .box2 img {
+            width: 450px;
+            height: 300px;
+        }
+
+        .box2 p {
+            padding-left: 100px;
+            font-size: 50px;
+
+        }
+
+        .box2 h5 {
+            padding-top: 15px;
+            padding-left: 100px;
+            width: 350px;
+            line-height: 20px;
+        }
+
+        .box2 h3 {
+            background-color: rgb(121, 81, 150);
+            padding-left: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 40px;
+            padding-right: 10px;
+            margin-left: 160px;
+            margin-top: 40px;
+            width: 150px;
+        }
+
+        /* box3 */
+
+        .box3 {
+            display: flex;
+
+        }
+
+        .box3 p {
+            font-size: 50px;
+            padding-left: 15vw;
+            width: 400px;
+        }
+
+        .box3 h5 {
+            width: 350px;
+            line-height: 20px;
+            padding-top: 15px;
+            padding-left: 15vw;
+        }
+
+        .box3 img {
+            width: 500px;
+            height: 350px;
+            padding: 0%;
+            float: right;
+            position: absolute;
+        }
+
+        /* box4 */
+
+        .box4 {
+            display: flex;
+            padding: 20vh;
+        }
+
+        .box4 img {
+            width: 400px;
+            height: 250px;
+            padding-top: 100px;
+        }
+
+        .box4 p {
+            font-size: 50px;
+            padding-left: 15vw;
+            width: 450px;
+            padding-top: 100px;
+        }
+
+        .box4 h5 {
+            width: 350px;
+            line-height: 20px;
+            padding-top: 15px;
+            padding-left: 15vw;
+            padding-bottom: 20px;
+        }
+
+        .image {
+            display: flex;
+            padding-left: 210px;
+        }
+
+        .image img {
+            padding: 1%;
+
+            width: 20px;
+            height: 20px;
+            background-color: rgb(226, 237, 237);
+            margin-left: 8px;
+        }
+
+        .box4 h6 {
+            font-size: 15px;
+            margin-top: 20px;
+            margin-left: 220px;
+            color: rgb(3, 151, 114);
+            width: 88px;
+            padding-bottom: 5px;
+            line-height: 10px;
+            border-bottom: solid 3px;
+
+        }
+
+        .box4 h3 {
+            background-color: rgb(121, 81, 150);
+            padding-left: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 40px;
+            padding-right: 10px;
+            margin-left: 220px;
+            margin-top: 40px;
+            width: 150px;
+        }
+
+        /* box 5 */
+
+        .box5 {
+            display: flex;
+            margin-left: 160px;
+        }
+
+        .box5 img {
+            width: 200px;
+            height: 100px;
+            margin-left: 100px;
+            border-radius: 100px;
+        }
+
+        .h2 h2 {
+            margin-left: 120px;
+            font-size: 25px;
+            width: 250px;
+            margin-top: 20px;
+
+        }
+
+        .h2 h5 {
+            width: 223px;
+            margin-left: 85px;
+            margin-top: 20px;
+        }
+
+        .h3 h2 {
+            margin-left: 110px;
+            font-size: 25px;
+            width: 250px;
+            margin-top: 20px;
+        }
+
+        .h3 h5 {
+            width: 240px;
+            margin-left: 85px;
+            margin-top: 20px;
+        }
+
+        .h4 h2 {
+            margin-left: 110px;
+            font-size: 25px;
+            width: 250px;
+            margin-top: 20px;
+        }
+
+        .h4 h5 {
+            width: 250px;
+            margin-left: 75px;
+            margin-top: 20px;
+        }
+
+        /* box 6 */
+
+        .box6 h6{
+            font-size: 15px;
+            margin-top: 100px;
+            margin-left: 660px;
+            color: rgb(3, 151, 114);
+            width: 150px;
+            line-height: 17px;
+            border-bottom: solid 3px;
+
+        }
+         
+        /* box7 */
+
+        .box7{
+            padding-top: 100px;
+        }
+
+        .box7 img{
+            width: 100vw;
+            height: 134vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1">
+            <img src="https://prod-assets-cms.mtech.xvservice.net/img/frontend/xv/edsv2/logo/expressvpn-logo-red.svg"
+                alt="">
+            <p>The VPN that just works</p>
+            <h2>Go further with the #1 trusted leader in VPN</h2>
+            <div class="text">
+                <h2>Get ExpressVPN </h2>
+            </div>
+            <div class="text1">
+                <p>30-DAY MONEY-BACK GUARANTEE</p>
+            </div>
+        </div>
+        <div class="box2">
+            <img src="https://www.tech-wonders.com/wp-content/uploads/2021/04/SASE-Secure-Access-Service-Edge-Security-Network.jpg"
+                alt="">
+            <div>
+                <p>Secure access,
+                    Worldwide
+                </p>
+                <h5>connect reliably from anywhere,to anywhere. Our network of high-speed servers across 94 countries
+                    puts
+                    you in control.</h5>
+                <h3>Get ExpressVPN</h3>
+            </div>
+        </div>
+        <div class="box3">
+            <div>
+                <p>One click to a safer internet
+                </p>
+                <h5>Going online doesn't have to mean being exposed. Wheather you're shopping from your desk or just
+                    connecting at a cafe. keep your personal information more private and secure.</h5>
+            </div>
+            <div> <img src="internet1.png" alt=""> </div>
+        </div>
+        <div class="box4">
+            <div><img src="devicecmp.png" alt=""></div>
+            <div>
+                <p>Use ExpressVPN on every device</p>
+                <h5>phone,tablet,computer,router--no matter where you are or what devices you're using, a single
+                    ExpressVPN subscription has got you covered.</h5>
+                <div class="image">
+                    <img src="window.png" alt="">
+                    <img src="apple.png" alt="">
+                    <img src="android.png" alt="">
+                    <img src="meta.png" alt="">
+                    <img src="microsoft.png" alt="">
+                    <img src="normal.png" alt="">
+                </div>
+                <h6>See all apps > </h6>
+                <h3>Get ExpressVPN</h3>
+            </div>
+        </div>
+        <div class="box5">
+            <div class="h2">
+                <img src="data protection.jpg" alt="">
+                <h2>Stronger data protection</h2>
+                <h5>Take charge of your online privacy and security with best-in-class encryption.</h5>
+            </div>
+            <div class="h3">
+                <img src="everywhwre.jpeg" alt="">
+                <h2>Works seamlessly everywhwre</h2>
+                <h5>Experience the internet the way it's meant to be.On the go,or on your couch.</h5>
+            </div>
+            <div class="h4">
+                <img src="connectivity.jpg" alt="">
+                <h2>Lightning-quick connectivity</h2>
+                <h5> Our vpn network is built for speed,powered by next-generation technology.</h5>
+            </div>
+        </div>
+        <div class="box6">
+            <h6>See more advantages ></h6>
+        </div>
+        <div class="box7">
+            <img src="globe2.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
